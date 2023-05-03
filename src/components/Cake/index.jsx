@@ -4,7 +4,7 @@ import { cakeOrdered, cakeRestocked } from "../../features/cake/cakeSlice";
 const index = () => {
   const cakeData = useSelector((state) => state.cake);
   const dispatch = useDispatch();
-  
+  const doSomething = () => {};
   return (
     <div>
       <div>cake amount- {cakeData.numOfCake}</div>
